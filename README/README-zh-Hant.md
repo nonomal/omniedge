@@ -1,41 +1,38 @@
-<p align="center">
-<h1 align="center"> OmniEdge </h1>
-<p align="center">What happens in intranet, stays in intranet.</p>
-</p>
 
-<p align="center">
-<a href="https://omniedge.io">
-<img alt="Website" src="https://img.shields.io/website?label=omniedge.io&url=https%3A%2F%2Fomniedge.io">
-</a>
-<a href="https://github.com/omniedgeio/omniedge">
-<img src="https://img.shields.io/github/license/omniedgeio/omniedge">
-</a>
-<a href="https://github.com/omniedgeio/omniedge">
-<img src="https://img.shields.io/github/downloads/omniedgeio/app-release/total">
-</a>
+![OmniEdge](https://user-images.githubusercontent.com/93888/185755146-a79ad5d6-7901-4855-9efb-ae108dbdcdf6.png)
 
-<a href="https://twitter.com/intent/follow?screen_name=omniedgeio">
-<img src="https://img.shields.io/twitter/follow/omniedgeio?label=follows&style=social" />
-</a>
-  <a href="https://github.com/omniedgeio/omniedge-cli">
-    <img src="https://img.shields.io/github/languages/top/omniedgeio/omniedge-cli" />
-  </a> 
-    <a href="https://github.com/omniedgeio/omniedge-iOS">
-    <img src="https://img.shields.io/github/languages/top/omniedgeio/omniedge-iOS" />
-  </a>
-      <a href="https://github.com/omniedgeio/omniedge-macOS">
-    <img src="https://img.shields.io/github/languages/top/omniedgeio/omniedge-macOS" />
-  </a> 
-      <a href="https://github.com/omniedgeio/omniedge-windows">
-    <img src="https://img.shields.io/github/languages/top/omniedgeio/omniedge-windows" />
-  </a> 
-        <a href="https://github.com/omniedgeio/omniedge-android">
-<img src="https://img.shields.io/github/languages/top/omniedgeio/omniedge-android"
-</a>
-          <a href="https://github.com/omniedgeio/omniedge-synology">
-    <img src="https://img.shields.io/github/languages/top/omniedgeio/omniedge-synology" />
-  </a> 
-</p>
+<div align="center">
+  <h1>OmniEdge</h1>
+<a href="https://omniedge.io"><img alt="Website" src="https://img.shields.io/website?label=omniedge.io&url=https%3A%2F%2Fomniedge.io"></a>
+<a href="https://github.com/omniedgeio/omniedge"><img src="https://img.shields.io/github/workflow/status/omniedgeio/omniedge/sync"></a>
+<a href="https://github.com/omniedgeio/omniedge"><img src="https://img.shields.io/github/license/omniedgeio/omniedge"></a>
+<a href="https://github.com/omniedgeio/omniedge/releases"><img src="https://img.shields.io/github/v/release/omniedgeio/omniedge"></a>
+<a href="https://hub.docker.com/r/omniedge/omniedge"><img src="https://img.shields.io/docker/v/omniedge/omniedge?label=Docker"></a>
+<a href="https://hub.docker.com/r/omniedge/omniedge"><img src="https://img.shields.io/docker/image-size/omniedge/omniedge?label=Docker%20image%20size"></a>
+
+
+
+
+  <br />
+  <br />
+  <a href="https://omniedge.io/docs/article/install#get-started">Get Started</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://omniedge.io/">Website</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://omniedge.io/docs">Docs</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://omniedge.io/docs/article/development">Development</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://omniedge.io/docs/article/cases/">Examples Cases</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://discord.gg/FY6Yd6jcPu">Discord</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://twitter.com/omniedgeio">Twitter</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://github.com/omniedgeio/omniedge">OmniEdge</a>
+  <br />
+  <hr />
+</div>
 
 
 [【English】](../README.md) [【正體中文】](README-zh-Hant.md) [【簡體中文】](README-zh-Hans.md) [【日本語】](README-JP.md) [【Español】](README-ES.md) [【Italiano】](README-IT.md) [【한국어】](README-KR.md) 
@@ -73,7 +70,12 @@ curl https://omniedge.io/install/omniedge-install.sh | bash
 
 如果您想使用**安全碼**登入或者想要管理設備和虛擬網路，請查閱[官方文檔](https://omniedge.io/docs)
 
+## 服務器狀態
 
+  >這個服務器狀態由 OmniEdge for Github Action 自動生成，每5個小時更新一次。
+  
+  [OmniEdge 服務狀態](https://github.com/omniedgeio/server-status#server-status)
+  
 ## 編譯
 
 ### 編譯 OmniEdge Cli
@@ -83,11 +85,8 @@ curl https://omniedge.io/install/omniedge-install.sh | bash
 - 2.1. Ubuntu /linux
 
 ```bash
-sudo -E apt-get -y update
-sudo -E apt-get install -y openssl
-sudo -E apt-get install -y build-essential
-sudo -E apt-get install -y libssl-dev
-sudo -E apt-get install -y zip
+sudo apt-get -y update
+sudo apt-get install -y openssl build-essential libssl-dev zip autoconf
 git clone git clone https://github.com/omniedgeio/omniedge-cli
 cd omniedge-cli
 go mod download
@@ -245,14 +244,18 @@ cd omniedge-windows
 - [wwwhatsnew: OMNIEDGE, PARA ACCEDER A TU INTRANET DESDE INTERNET USANDO P2P](https://wwwhatsnew.com/2022/03/03/omniedge-para-acceder-a-tu-intranet-desde-internet-usando-p2p/)
 - [l'Entrepreneur: OmniEdge, pour accéder à votre Intranet depuis Internet en P2P](https://lentrepreneur.co/style/technologie/omniedge-pour-acceder-a-votre-intranet-depuis-internet-en-p2p-04032022)
 - [RunaCapital: Awesome OSS alternatives](https://github.com/RunaCapital/awesome-oss-alternatives)
+- [OmniEdge in ntopconf 2022](https://www.ntop.org/ntopconf2022/)
 
 >如果您看到了任何有關於 OmniEdge 的文章，請給我們提PR或者發issue
 
+## Advisor
+
+[lucaderi](https://github.com/lucaderi)
 
 ## Contributors
 
 [harri8807](https://github.com/orgs/omniedgeio/people/harri8807) , [Tex-Tang](https://github.com/Tex-Tang), [ivyxjc](https://github.com/orgs/omniedgeio/people/ivyxjc), [kidylee](https://github.com/kidylee), [EbenDang](https://github.com/orgs/omniedgeio/people/EbenDang)
-,[zteshadow](https://github.com/zteshadow), [ChenYouping](https://github.com/orgs/omniedgeio/people/ChenYouping),[ddrandy](https://github.com/orgs/omniedgeio/people/ddrandy), **Tsingv**, [mtx2d](https://github.com/mtx2d)，[Blackrose](https://github.com/Blackrose), [cheung-chifung](https://github.com/cheung-chifung),[我不是矿神](https://imnks.com/5768.html)
+,[zteshadow](https://github.com/zteshadow), [ChenYouping](https://github.com/orgs/omniedgeio/people/ChenYouping),[ddrandy](https://github.com/orgs/omniedgeio/people/ddrandy), **Tsingv**, [mtx2d](https://github.com/mtx2d)，[Blackrose](https://github.com/Blackrose), [cheung-chifung](https://github.com/cheung-chifung),[我不是礦神](https://imnks.com/5768.html)
 
 ----
 

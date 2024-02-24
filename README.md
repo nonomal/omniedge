@@ -1,46 +1,45 @@
-<p align="center">
-<h1 align="center"> OmniEdge </h1>
-<p align="center">What happens in intranet, stays in intranet.</p>
-</p>
+![OmniEdge](https://user-images.githubusercontent.com/93888/185755146-a79ad5d6-7901-4855-9efb-ae108dbdcdf6.png)
 
-<p align="center">
-<a href="https://omniedge.io">
-<img alt="Website" src="https://img.shields.io/website?label=omniedge.io&url=https%3A%2F%2Fomniedge.io">
-</a>
-<a href="https://github.com/omniedgeio/omniedge">
-<img src="https://img.shields.io/github/license/omniedgeio/omniedge">
-</a>
-<a href="https://github.com/omniedgeio/omniedge">
-<img src="https://img.shields.io/github/downloads/omniedgeio/app-release/total">
-</a>
+<div align="center">
+  <h1>OmniEdge</h1>
+<a href="https://omniedge.io"><img alt="Website" src="https://img.shields.io/website?label=omniedge.io&url=https%3A%2F%2Fomniedge.io"></a>
+<a href="https://github.com/omniedgeio/omniedge"><img src="https://img.shields.io/github/workflow/status/omniedgeio/omniedge/sync"></a>
+<a href="https://github.com/omniedgeio/omniedge"><img src="https://img.shields.io/github/license/omniedgeio/omniedge"></a>
+<a href="https://github.com/omniedgeio/omniedge/releases"><img src="https://img.shields.io/github/v/release/omniedgeio/omniedge"></a>
+<a href="https://hub.docker.com/r/omniedge/omniedge"><img src="https://img.shields.io/docker/v/omniedge/omniedge?label=Docker"></a>
+<a href="https://hub.docker.com/r/omniedge/omniedge"><img src="https://img.shields.io/docker/image-size/omniedge/omniedge?label=Docker%20image%20size"></a>
 
-<a href="https://twitter.com/intent/follow?screen_name=omniedgeio">
-<img src="https://img.shields.io/twitter/follow/omniedgeio?label=follows&style=social" />
-</a>
-  <a href="https://github.com/omniedgeio/omniedge-cli">
-    <img src="https://img.shields.io/github/languages/top/omniedgeio/omniedge-cli" />
-  </a> 
-    <a href="https://github.com/omniedgeio/omniedge-iOS">
-    <img src="https://img.shields.io/github/languages/top/omniedgeio/omniedge-iOS" />
-  </a>
-      <a href="https://github.com/omniedgeio/omniedge-macOS">
-    <img src="https://img.shields.io/github/languages/top/omniedgeio/omniedge-macOS" />
-  </a> 
-      <a href="https://github.com/omniedgeio/omniedge-windows">
-    <img src="https://img.shields.io/github/languages/top/omniedgeio/omniedge-windows" />
-  </a> 
-        <a href="https://github.com/omniedgeio/omniedge-android">
-<img src="https://img.shields.io/github/languages/top/omniedgeio/omniedge-android"
-</a>
-          <a href="https://github.com/omniedgeio/omniedge-synology">
-    <img src="https://img.shields.io/github/languages/top/omniedgeio/omniedge-synology" />
-  </a> 
-</p>
+  <br />
+  <br />
+  <a href="https://omniedge.io/docs/article/install#get-started">Get Started</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://omniedge.io/">Website</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://omniedge.io/docs">Docs</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://omniedge.io/docs/article/development">Development</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://omniedge.io/docs/article/cases/">Examples Cases</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://discord.gg/FY6Yd6jcPu">Discord</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://twitter.com/omniedgeio">Twitter</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://github.com/omniedgeio/omniedge">OmniEdge</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+<a href="https://buy.stripe.com/4gwcNy54x75RfCw5kw">Donation</a>
+  <br />
+  <hr />
+</div>
 
 [【English】](README.md) [【繁体中文】](README/README-zh-Hant.md) [【简体中文】](README/README-zh-Hans.md) [【日本语】](README/README-JP.md) [【Español】](README/README-ES.md) [【Italiano】](README/README-IT.md) [【한국어】](README/README-KR.md) 
 [【العربي】](README/README-AR.md) [【Tiếng Việt】](README/README-VN.md) [【แบบไทย】](README/README-TH.md)
 
-OmniEdge is an Open source p2p layer 2 VPN infrastructure based on [n2n](https://github.com/ntop/n2n) protocol, a traditional VPN alternative. No central server, easy to scale with less maintenance. What happens in intranet, stays in in intranet. 
+[Hiring: Lead Developer - OmniEdge Enterprise VPN Project](Hiring.md)
+
+OmniEdge is an Open source p2p layer 2 VPN infrastructure based on [n2n](https://github.com/ntop/n2n) protocol, a traditional VPN alternative. No central server, easy to scale with less maintenance. What happens in intranet, stays in in intranet. OmniEdge is fully open sourced the code including backend, frontend, and Apps. 
+
+
    
 ![OmniEdge-clients](OmniEdge-clients.png)
 
@@ -58,14 +57,13 @@ OmniEdge is an Open source p2p layer 2 VPN infrastructure based on [n2n](https:/
 | :fire: [Remote Device Control](https://omniedge.io/docs/article/Cases/VNC)|[Drop Files remotely](https://omniedge.io/docs/article/Cases/landrop) |Automatic IP allocation|
 
 
-You can find more features in the [Pricing](https://omniedge.io/pricing) Page for Enterprise.
-
 ## Supported
 
-| App| Version | Linux | Windows | MacOS | FreeBSD |iOS | Android | Synology |  Docker | Github Action |
-| --------- | ---------- | --- | --- | --- |--- |--- |--- |--- | --- |--- |
-| OmniEdge  | [0.2.3](https://github.com/omniedgeio/omniedge/releases/tag/v0.2.3)  | ✅  | ✅  | ✅  |✅  |✅  |✅  |✅  |✅ |✅ |
-
+| App| Version | Linux | Windows | MacOS | FreeBSD |iOS | Android | Synology |  OpenWrt |Docker | Github Action |
+| --------- | ---------- | --- | --- | --- |--- |--- |--- |--- | --- |--- | --- |
+| OmniEdge  | [0.2.3](https://github.com/omniedgeio/omniedge/releases/tag/v0.2.3)  | ✅  | ✅  | ✅  | ✅  |✅  |✅  |✅  |✅  |✅ |✅ |
+| OmniEdge  | [0.2.4](https://github.com/omniedgeio/omniedge/releases/tag/v0.2.3)  | ✅  |   |   | ✅  |  |  |✅  |✅  |✅ |✅ |
+| OmniEdge  | [0.2.5](https://github.com/omniedgeio/omniedge/releases/tag/v0.2.3)  |   |✅  |   | ✅  |  |  |✅  |✅  |✅ |✅ |
 
 ## Get Started in 5 minutes 
 
@@ -105,6 +103,13 @@ Bring Github Action into intranet, access nodes/devices from CI workflows.
     virtualnetworkid: ${{ secrets.OMNIEDGE_VIRTUALNETWORK_ID }}
 ```
 
+## Server status 
+
+  >This Server Status is generated every 5 hours by OmniEdge Github action.
+  
+  [OmniEdge server-status](https://github.com/omniedgeio/server-status#server-status)
+
+
 ## Compile
 
 ### Linux
@@ -124,11 +129,8 @@ go version
 ####  Build for Ubuntu 18.04, 20.04, 22.04/Debian 10, 11
 
 ```bash
-sudo -E apt-get -y update
-sudo -E apt-get install -y openssl
-sudo -E apt-get install -y build-essential
-sudo -E apt-get install -y libssl-dev
-sudo -E apt-get install -y zip
+sudo apt-get -y update
+sudo apt-get install -y openssl build-essential libssl-dev zip autoconf
 git clone https://github.com/omniedgeio/omniedge-cli
 cd omniedge-cli
 go mod download
@@ -299,6 +301,16 @@ cd omniedge-windows
 5. Press `crtl+B` to build, and you will find **OmniEdge.exe** in the folder`.\build-package\build\release\`.
 6. copy **OmniEdge.exe** to `.\build-package\package\`,open **omniedge_withTAP_V02_bat.iss** with Inno Setup Compile, press `ctril+F9` to compile and you will find the installer package in the folder `.\build-package\release`
 
+### OpenWrt
+
+1. Compile the binary
+
+We use the github action with the docker to build the binary for openwrt, the docker file is located at:
+`https://github.com/omniedgeio/omniedge-cli/blob/dev/docker/openwrt-binary`
+
+2. Package the ipk
+
+A seperated repo `https://github.com/omniedgeio/omniedge-openwrt` with github action is used to download the openwrt binary and package the ipk. 
 
 ## Usage
 
@@ -340,6 +352,11 @@ cd omniedge-windows
 - [wwwhatsnew: OMNIEDGE, PARA ACCEDER A TU INTRANET DESDE INTERNET USANDO P2P](https://wwwhatsnew.com/2022/03/03/omniedge-para-acceder-a-tu-intranet-desde-internet-usando-p2p/)
 - [l'Entrepreneur: OmniEdge, pour accéder à votre Intranet depuis Internet en P2P](https://lentrepreneur.co/style/technologie/omniedge-pour-acceder-a-votre-intranet-depuis-internet-en-p2p-04032022)
 - [RunaCapital: Awesome OSS alternatives](https://github.com/RunaCapital/awesome-oss-alternatives)
+- [OmniEdge in ntopconf 2022](https://www.ntop.org/ntopconf2022/)
+
+## Advisor
+
+[lucaderi](https://github.com/lucaderi)
 
 ## Contributors
 
